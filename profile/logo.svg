@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="facet1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="facet2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f3460"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="facet3" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e94560"/>
+      <stop offset="100%" stop-color="#0f3460"/>
+    </linearGradient>
+  </defs>
+  <!-- Top facet -->
+  <polygon points="100,20 160,70 100,90 40,70" fill="url(#facet1)" />
+  <!-- Left facet -->
+  <polygon points="40,70 100,90 100,170 30,100" fill="url(#facet2)" />
+  <!-- Right facet -->
+  <polygon points="160,70 170,100 100,170 100,90" fill="url(#facet3)" />
+  <!-- Highlight edges -->
+  <line x1="100" y1="20" x2="100" y2="90" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="100" y1="90" x2="100" y2="170" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+</svg>
