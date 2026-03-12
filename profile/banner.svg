@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="f1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="f2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f3460"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="f3" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e94560"/>
+      <stop offset="100%" stop-color="#0f3460"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="320" fill="url(#bg-grad)"/>
+
+  <!-- Gemstone mark (scaled and positioned left) -->
+  <g transform="translate(120, 40) scale(1.4)">
+    <polygon points="100,20 160,70 100,90 40,70" fill="url(#f1)" />
+    <polygon points="40,70 100,90 100,170 30,100" fill="url(#f2)" />
+    <polygon points="160,70 170,100 100,170 100,90" fill="url(#f3)" />
+    <line x1="100" y1="20" x2="100" y2="90" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <line x1="100" y1="90" x2="100" y2="170" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  </g>
+
+  <!-- Company name -->
+  <text x="480" y="155" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#ffffff" letter-spacing="4">ONYX DEV LABS</text>
+
+  <!-- Tagline -->
+  <text x="484" y="200" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="18" fill="#8a8a9a" letter-spacing="3">SOFTWARE CONSULTING &amp; DEVELOPMENT</text>
+
+  <!-- Subtle accent line -->
+  <rect x="480" y="215" width="60" height="2" rx="1" fill="#e94560"/>
+</svg>
